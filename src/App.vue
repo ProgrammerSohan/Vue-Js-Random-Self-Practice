@@ -1,11 +1,13 @@
 <template>
    <div>
-    <GeteventData />
+    <!--     <GeteventData /> -->
+    <Para2Event />
    </div>
   </template>
    <script>
   //import Class from './components/Class.vue'
-  import GeteventData from './components/GeteventData.vue';
+  //import GeteventData from './components/GeteventData.vue';
+  import Para2Event from './components/Para2Event.vue';
 
   
   export default{
@@ -17,7 +19,8 @@
     },
     components: { 
       //Class,
-        GeteventData
+       // GeteventData
+       Para2Event
     }
   
   }
