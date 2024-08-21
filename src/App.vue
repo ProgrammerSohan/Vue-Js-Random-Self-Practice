@@ -2,14 +2,16 @@
    <div>
     <!--     <GeteventData /> -->
     <!-- <Para2Event /> -->
-        <EventModifier />
+     <!--    <EventModifier /> -->
+         <VarOne />
    </div>
   </template>
    <script>
   //import Class from './components/Class.vue'
   //import GeteventData from './components/GeteventData.vue';
  //import Para2Event from './components/Para2Event.vue';
- import EventModifier from './components/EventModifier.vue';
+ //import EventModifier from './components/EventModifier.vue';
+ import VarOne from './components/raw-js/VarOne.vue';
   
   export default{
     name: 'App',
@@ -22,7 +24,9 @@
       //Class,
        // GeteventData
       /// Para2Event
-      EventModifier
+     // EventModifier
+     VarOne
+
     }
   
   }
