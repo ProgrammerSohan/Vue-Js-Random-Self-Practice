@@ -6,12 +6,16 @@
   <h1>{{ test }}</h1>
   <hr>
   <EventHandling />
+  <hr>
+  <EventToggle />
 </template>
  <script>
 import Class from './components/Class.vue'
 import Class2 from './components/Class2.vue'
 import HelloSohan from './components/HelloSohan.vue';
 import EventHandling from './components/EventHandling.vue';
+import EventToggle from './components/EventToggle.vue';
+
 export default{
   name: 'App',
   data(){
@@ -23,7 +27,8 @@ export default{
     Class,
     Class2,
     HelloSohan,
-    EventHandling
+    EventHandling,
+    EventToggle
   }
 
 }
